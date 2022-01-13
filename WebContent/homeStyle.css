@@ -1,0 +1,489 @@
+body{
+    background-color: rgb(221, 245, 255);
+}
+.logo{
+ margin-left: 20px;
+ text-decoration: inline;
+}
+h1{
+    margin-top: -20px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    font-size: 30px;
+    text-align:center;
+}
+
+h2{
+    margin-left: 40px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+header{
+    
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 350px;
+    text-align:center;
+    text-decoration: black;
+}
+
+/*the following code is to edit text in header*/
+a:link{text-decoration: none;}
+a:hover {
+    color: #000000; 
+    text-decoration: underline;
+}
+
+.activities{
+    margin-top: -200px;
+    margin-bottom: -10px;
+    margin-left: 1150px;
+    margin-right: 40px;
+   
+}
+/*----------------------- login page   ------------------------------------*/
+
+#login {
+    background-color: #14b1ab;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .LogInProfileEdit{
+    padding: 50px 10px;
+    background-color: #ffffffd2;
+    text-align: left;
+    height: 500px;
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+    margin-Right: 40px;
+  }
+  .login-content {
+    text-align: center;
+    padding: 10%;
+  }
+  input,
+  input #login {
+    padding: 0.5rem 2rem;
+  }
+  label {
+    font-size: 1.5rem;
+  }
+  
+/*----------------------- login page   ------------------------------------*/
+
+/*----------------------- Header for all pages ---------------------------------*/
+/*the following code is to edit text in header*/
+a:link{text-decoration: none;}
+a:hover {
+    color: #000000; 
+    text-decoration: underline;
+}
+
+.activities{
+    
+   	width: 100%;
+  	position: relative;
+  	display: flex;
+}
+/*----------------------- End of header for all pages ---------------------------------*/
+
+/*---------------Search Bar related style---------------*/
+.searchBar{
+	
+  width: 100%;
+  position: relative;
+  display: flex;
+     
+}
+
+/*the style of the word "search" inside the box*/
+
+@import 
+url(https://fonts.googleapis.com/css?family=Open+Sans);
+.search{
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+/*the style of the box of the search*/
+.saerchButton{
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+/*---------------End of search Bar related style---------------*/
+
+/*The introduction text after page title*/
+.intro{
+    margin-top: -40px;
+    margin-bottom: 80px;
+    margin-right: 400px;
+    margin-left: 360px;
+    font-size: 20px;
+    text-align:center;
+    text-align: justify;
+}
+
+/*cards style*/
+.image{
+    margin-left: 40px;
+    border-radius:10px;
+}
+
+.img{
+    height: 180;
+    width: 300;
+}
+
+.footerText{
+    margin-left: 150px;
+}
+
+/* Profile Page Style */
+.profileBox{   
+    background-color: aliceblue; 
+    text-align: center;
+    height: 300px;
+    width: 20%;
+    margin-left: 200px;
+    margin-top: -60px;
+}
+
+
+/*----------------------- style the activity section  ------------------------------------*/
+.announcment-section {
+    background: #ffffffd2;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    margin: 5em 7em;
+  }
+  .image-announced {
+    max-width: 100%;
+    height: auto;
+    margin: 3em;
+  }
+  img.image-announced {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 40%;
+  }
+  .container {
+    position: relative;
+  }
+  .content {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  /*------------Style of club's Leader page---------------*/
+  .leader_bar{
+    height: 90px;
+    width: 85%;
+    background: #ffffffd2;
+    margin: 7em 7em;
+    margin-left: 110px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+  }
+  #Element1{
+    background-color: #14B1AB;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 235px;
+  }
+  #Element2{
+    background-color: #14B1AB;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 24px;
+    margin-left: 70px;
+  }
+  #club_members{
+ 	 background-color: #14B1AB;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 24px;
+    margin-left: 70px;
+     
+
+}
+
+ /*----------End of Style of club's Leader page-----------*/
+
+/*----------For add new member page-----------*/
+.Adding_box{
+    background-color: aliceblue; 
+    text-align:center;
+    height: 600px;
+    width: 40%;
+    margin-left: 440px;
+    margin-top: -70px;
+
+}
+
+
+
+
+  /*----------------------- style the profile section  ------------------------------------*/
+#box {
+    background-color: #14B1AB;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .Myclubs{
+    background-color: aliceblue; 
+    text-align:left;
+    height: 300px;
+    width: 55%;
+    margin-left: 520px;
+    margin-top: -320px;
+
+  }
+
+  .MyTask{   
+    background-color: aliceblue; 
+    text-align:left;
+    height: 200px;
+    width: 26.7%;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+   
+.RecentActivity{
+
+    background-color: aliceblue; 
+    text-align:left;
+    height: 200px;
+    width: 26.7%;
+    margin-left: 950px;
+    margin-top: -220px;
+}
+
+
+.ProfileEdit{
+    padding: 20px 0px 0px 80px;
+    background-color: aliceblue; 
+    text-align:left;
+    height: 700px;
+    width: 40%;
+    margin-left: 390px;
+    margin-top: -70px
+}
+
+/*----------------------- End of style the profile section  ------------------------------------*/
+
+/*----------------------- About Us section  --------------------------------------------*/
+
+#aboutpic{
+height: auto;
+width: 1010px;
+margin-left: auto;
+margin-right: auto;
+margin-top: -30px;
+margin-bottom: auto;
+display: block;
+}
+
+.introText{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    margin-left: 120px;
+}
+#aboutYUCText{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 30px;
+    font-family: Copperplate, Papyrus, fantasy;
+    padding-left: 4px;
+}
+/*----------------------- End of  About Us section  ------------------------------------*/
+/*-----------------------  Contact Us section  ------------------------------------*/
+#ContactUsPic{
+height: auto;
+width: 1010px;
+margin-left: auto;
+margin-right: auto;
+margin-top: -30px;
+margin-bottom: auto;
+display: block;
+}
+
+#mail{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 30px;
+    font-family: Copperplate, Papyrus, fantasy;
+    padding-left: 4px;
+}
+/*----------------------- End of  contact Us section  ------------------------------------*/
+/*----------------------- log in page   ------------------------------------*/
+
+#login {
+    background-color: #14b1ab;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .LogInProfileEdit{
+    padding: 50px 10px;
+    background-color: #ffffffd2;
+    text-align: left;
+    height: 500px;
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+    margin-Right: 40px;
+  }
+  .login-content {
+    text-align: center;
+    padding: 10%;
+  }
+  input,
+  input #login {
+    padding: 0.5rem 2rem;
+  }
+  label {
+    font-size: 1.5rem;
+  }
+  
+/*----------------------- log in page   ------------------------------------*/
+  /*----------------------- home page  ------------------------------------*/
+.box {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+.clearfix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+  
+}
+  /*-----------------------  end of home page  ------------------------------------*/
+  /*-----------------------  updated profile page  ------------------------------------*/
+  
+.profile-container {
+	
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    padding: 7em 10em;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 150%;
+}
+
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  /*-----------------------  end of updated profile page  ------------------------------------*/
+  /*----------------------- My tasks style  ------------------------------------*/
+
+.Taskdiv{
+	border-style: solid;
+	margin: 25px 50px 75px 100px;
+}
+.newTask-section {
+    background: #ffffffd2;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    margin: 5em 7em;
+  }
+#AddNewTask{
+    background-color: #14B1AB;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 24px;
+    margin-left: 70px;
+}
+
+ #AddTask{
+ 	background-color: #14B1AB;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-left: 500px;
+    margin-bottom: 50px;
+ 
+}
+/*----------------------- My tasks style ------------------------------------*/
+
+/*----------------------- Table Style ------------------------------------*/
+table {
+  font-family: 'Arial';
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #00cccc;
+   }
+  td {
+    background-color: #FDFEFE;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+ }
+
+
+  

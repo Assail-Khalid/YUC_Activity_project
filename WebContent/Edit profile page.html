@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit Profile Page </title>
+        <!--Css external sheet link-->
+        <link rel="stylesheet" type="text/css" href="homeStyle.css"/>
+    
+        <!--this is taken from font awesome library to insert search icon-->
+        <link rel="stylesheet" type="text/css" href="all.css"/>
+    </head>
+    
+    <!--body-->
+    <body>
+        <!--official yuc logo in the top left of the page-->
+        <img class= "logo" src = "yuc_logo-removebg.png" alt = "YUC logo" width="80" height="80">
+    
+        <!--header work-->
+        <header>
+       
+         <a href="HomePage.jsp">Home</a>&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;
+         <a href="Annoucement.html">Announcement</a>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="About Us.html">About Us</a>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="Contact Us.jsp">Contact Us</a>
+    <hr>
+         <!-- Search bar code -->
+         <form action="search">
+         <div class="searchBar">
+                <!--This line of code to create the box of search-->
+                <input type="text" name="searched" placeholder="search.." class="search">
+				<button type="submit" class="saerchButton">
+                <!--this line of code to insert the search icon-->
+                <i class="fa fa-search"></i> 
+               </button>
+         </div>
+         </form>       
+         <!-- End of search bar code -->
+         
+        </header>
+
+        <!--***Edit profile***-->
+
+        <!--***profile information***-->
+        <div class="ProfileEdit">
+        <form action="profile page.html">
+            <label for="Name">Full name:</label><br>
+            <input type="text" id="Name" name="Name"><br><br>
+
+            <label for="Email">Email:</label><br>
+            <input type="email" id="Email" name="Email"><br><br>
+
+            <label for="Student_id">Student ID:</label><br>
+            <input type="text" id="Student_id" name="Student_id"><br><br>
+
+            <label for="Student_classification">Student Classification:</label><br>
+             <select id="Student_classification" name="Student_classification">
+            <option value="Preparatory_Year">Preparatory Year</option>
+            <option value="Freshman">Freshman</option>
+            <option value="Sophomore">Sophomore</option>
+            <option value="Junior">Junior</option>
+            <option value="Senior">Senior</option>
+            </select><br><br>
+
+            <label for="phone_number">Phone number:</label><br>
+            <input type="text" id="phone_number" name="phone_number"><br><br>
+
+            <label for="Password">Password:</label><br>
+            <input type="password" id="Password" name="Password"><br><br>
+
+            <label for="Re_Enter_Password">Confirm Password:</label><br>
+            <input type="password" id="Re_Enter_Password" name="Re_Enter_Password"><br><br><br>
+
+            <input id="box" type="submit" value="Update">
+          </form>
+
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <footer>
+            <script src="footer.js"></script>
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+<head>
+    <title>Add New Member </title>
+    <!--Css external sheet link-->
+    <link rel="stylesheet" type="text/css" href="homeStyle.css"/>
+    <!--this is taken from font awesome library to insert search icon-->
+    <link rel="stylesheet" type="text/css" href="all.css"/>
+</head>
+  <body>
+    <!--official yuc logo in the top left of the page-->
+    <img class= "logo" src = "yuc_logo-removebg.png" alt = "YUC logo" width="80" height="80">
+    <!--this line of code to insert the profile icon-->&nbsp;
+    <a href="profile page.html"><img src="profile.png" width="80" height="80"></a> 
+
+    <!--header work-->
+    <header>
+      
+        <a href="HomePage.jsp">Home</a>&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;
+         <a href="Annoucement.html">Announcement</a>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="About Us.html">About Us</a>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="Contact Us.jsp">Contact Us</a>
+		<hr> 
+		 <!-- Search bar code -->
+         <form action="search">
+         <div class="searchBar">
+                <!--This line of code to create the box of search-->
+                <input type="text" name="searched" placeholder="search.." class="search">
+				<button type="submit" class="saerchButton">
+                <!--this line of code to insert the search icon-->
+                <i class="fa fa-search"></i> 
+               </button>
+         </div>
+         </form>       
+         <!-- End of search bar code -->
+         
+
+    </header>
+
+    
+        <!--***New Member***-->
+        <div class="Adding_box">
+
+            <br><br>
+            <h2>Add New Member</h2>
+          <form action="AddMember" method="post" >
+          
+            <label for="Name">Name:</label><br>
+            <input type="text" id="Name" name="Name" autofocus required autocomplete="off"><br><br>
+
+            <label for="Email">Email:</label><br>
+            <input type="email" id="Email" name="Email" required placeholder="*******@stu.rcyci.edu.sa"
+             pattern="[0-9]{7}+@stu\.rcyci\.edu\sa" autocomplete="off"><br><br>
+
+            <label for="Student_id">Student ID:</label><br>
+            <!-- oninvalid is used to specify the error message to be "The input should be a number with 7 digits -->
+            <!-- oninput part is important because it hides the error message when the user inputs new data -->
+            <!-- step="7" to force the id to be 7 numbers only -->
+            <input type="text" id="Student_id" name="Student_id" required pattern="[0-9]{7}" placeholder="7 digits only"
+             oninvalid="Student_id.setCustomValidity('7 digits number allowed only')"
+  			 oninput="Student_id.setCustomValidity('')" autocomplete="off"><br><br>
+         
+  
+              <input id="Add member" type="submit" value="Add member">
+              
+            </form>
+  
+          </div>
+
+  </body>
+  
+  <footer>
+    <script src="footer.js"></script>
+</footer>
+  </html>
